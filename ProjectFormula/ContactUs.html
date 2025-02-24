@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/ContactUs.css">
+  <link rel="stylesheet" href="css/Nav.css">
+  <script src="js/emailvalidation.js"></script>
+  <meta charset="UTF-8">
+  <meta name="name" content="Project Formula">
+  <meta name="author" content="Raul, Vladislav">
+  <meta name="keywords" content="Project Formula, News, Updates, Latest News">
+  <meta name="description" content="Stay updated with the latest news and updates from ProjectFormula. Get insights, updates, and more on the latest developments in our project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c5efa640d8.js" crossorigin="anonymous"></script>
+  <title> Contact Us | ProjectFormula </title>
+</head>
+<body>
+
+  <header>
+    <nav>
+        <a href="MainPage.html" style="padding: 0px;"><img src="images/ProjectFormula_Logo.jpg" alt="Logo"></a>
+
+        <div class="MobileNavigation" id="MobileNavigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="navbar" id="navbar">
+            <button class="close-button" id="closeButton">&times;</button>
+            <li><a href="MainPage.html">Home</a></li>
+            <li>
+                <a href="NewsPage.html">News</a>
+            </li>
+            <li>
+                <a href="F1champ.html">F1 Championship</a>
+                <ul class="dropdown">
+                    <li><a href="CountdownPage.html">Countdown</a></li>
+                    <li><a href="DriverStandings.html">Driver Standings</a></li>
+                    <li><a href="ConstructorStandings.html">Constructor Standings</a></li>
+                    <li><a href="Calendar2025.html">Calendar 2025</a></li>
+                </ul>
+            </li>
+            <li><a href="AboutUs.html">About</a></li>
+            <li class="log"><a href="Login.html" class="login-button"> Log In </a></li>
+        </ul>
+    </nav>
+    <script src="js/nav.js"></script>
+</header>
+
+<main>
+  <img src="images/australiangp.jpg" alt="Background" class="background-img">
+
+  <div class="form-container">
+    <form action="#" method="post" onsubmit="return emailvalidation()">
+      <h3>Contact Us!</h3>
+
+      <label for="namesurname">Username</label>
+      <input type="text" id="namesurname" placeholder="ex: James Bond " required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="ex: test@test.com" required>
+
+      <label for="message">Message <small>(max length 200 symbols)</small></label>
+      <textarea name="text" id="message" cols="30" rows="10" placeholder="type here" required></textarea>
+
+      <label for="file-upload">Attach File <small>(optional)</small></label>
+      <input type="file" id="file-upload" name="file-upload">
+
+      <button type="submit" id="form-button">Submit</button>
+    </form>
+  </div>
+</main>
+
+</body>
+</html>

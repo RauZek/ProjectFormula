@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="name" content="Project Formula">
+    <meta name="author" content="Raul, Vladislav">
+    <meta name="keywords" content="Project Formula, News, Updates, Latest News">
+    <meta name="description" content="Stay updated with the latest news and updates from ProjectFormula. Get insights, updates, and more on the latest developments in our project.">
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="stylesheet" href="css/Nav.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <script src="https://kit.fontawesome.com/c5efa640d8.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/firebase-login.js"></script>
+    <title> Homepage | ProjectFormula </title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="MainPage.html" style="padding: 0px;"><img src="images/ProjectFormula_Logo.jpg" alt="Logo"></a>
+
+        <div class="MobileNavigation" id="MobileNavigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="navbar" id="navbar">
+            <button class="close-button" id="closeButton">&times;</button>
+            <li><a href="MainPage.html">Home</a></li>
+            <li><a href="NewsPage.html">News</a></li>
+            <li>
+                <a href="F1champ.html">F1 Championship</a>
+                <ul class="dropdown">
+                    <li><a href="CountdownPage.html">Countdown</a></li>
+                    <li><a href="DriverStandings.html">Driver Standings</a></li>
+                    <li><a href="ConstructorStandings.html">Constructor Standings</a></li>
+                    <li><a href="Calendar2025.html">Calendar 2025</a></li>
+                </ul>
+            </li>
+            <li><a href="AboutUs.html">About</a></li>
+            <li class="log"><a href="Login.html" class="login-button">Log In</a></li>
+        </ul>
+
+    </nav>
+    <script src="js/nav.js"></script>
+</header>
+
+<main>
+    <section id="intro">
+        <div class="content">
+            <p>Welcome to</p>
+            <hr style="color: white;">
+            <h1>ProjectFormula</h1>
+            <hr style="color: white;">
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <hr style="color: white; margin: 50px;">
+
+    <h2>Top News</h2>
+    <section id="FirstNews">
+        <div id="NewsItem">
+            <img src="images/LewFer.avif" alt="HamToFerrari">
+            <a href="News2.html" class="NewsLink" style="padding: 0px;"><h5><u>Lewis Hamilton and Ferrari in 2025!</u></h5></a>
+            <p>It's a Fact! Hamilton signs with Ferrari for 2025!</p>
+        </div>
+        <div id="NewsItem">
+            <img src="images/MclarenF1.avif" alt="MclarenChampions">
+            <a href="News1.html " class="NewsLink" style="padding: 0px;"><h5><u>Mclaren! THE 2024 WORLD CHAMPIONS!</u></h5></a>
+            <p>Norris and Piastri <br>on the constructor championship win!</p>
+        </div>
+        <div id="NewsItem">
+            <img src="images/f1rookies.png" alt="F1Rookies">
+            <a href="News4.html " class="NewsLink" style="padding: 0px;"><h5><u>The new faces of F1!</u></h5></a>
+            <p>Look through the eyes of the rookies for 2025!</p>
+        </div>
+    </section>
+
+    <br>
+    <hr style="color: white; margin: 50px;">
+
+    <h2>Our Team</h2>
+    <section id="about">
+        <div id="creator">
+            <div id="Creatorimage">
+                <img src="images/Vladi.jpg" alt="Vladislav">
+            </div>
+            <div id="CreatorInfo" style="text-align: center;">
+                <h3>Vladislav Gabov</h3>
+                <p style="margin-top: -15px;">Creator</p>
+                <p>Vladislav is a student at Plovdiv University "Paisii Hilendarski",<br> majoring in "Software Technologies and Design".</p>
+                <div class="CreatorSoc">
+                    <a href="https://www.instagram.com/vladislavg.05/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004018565204" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/vladislav-gabov-24b009302/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="creator">
+            <div id="Creatorimage">
+                <img src="images/Raul2.jpg" alt="Raul">
+            </div>
+            <div id="CreatorInfo" style="text-align: center;">
+                <h3>Raul Hristov</h3>
+                <p style="margin-top: -15px;">Creator</p>
+                <p>Raul is a student at Plovdiv University "Paisii Hilendarski",<br> majoring in "Software Technologies and Design".</p>
+                <div class="CreatorSoc">
+                    <a href="https://www.instagram.com/raulhristov_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61563896540208" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/raul-hristov-771265316/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+        <a href="MainPage.html"><img src="images/ProjectFormula_LogoWhite.jpg" alt="ProjectFormula" height="100"></a>
+    <a href="ContactUs.html" class="contact-button"> Contact Us </a>
+    <section class="socials">
+            <a href="https://www.instagram.com/F1mem4e/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61563896540208" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/@f1bober735" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </section>
+        <div id="Copyright">
+            <p>&copy; ProjectFormula 2025-2026, all rights reserved. </p>
+        </div>
+    </footer>
+</body>
+</html>

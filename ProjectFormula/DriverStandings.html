@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/DriverStandings.css">
+    <link rel="stylesheet" href="css/Nav.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <meta charset="UTF-8">
+    <meta name="name" content="Project Formula">
+    <meta name="author" content="Raul, Vladislav">
+    <meta name="keywords" content="Project Formula, News, Updates, Latest News">
+    <meta name="description" content="Stay updated with the latest news and updates from ProjectFormula. Get insights, updates, and more on the latest developments in our project.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5efa640d8.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/firebase-login.js"></script>
+    <title> DS | ProjectFormula</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="MainPage.html" style="padding: 0px;"><img src="images/ProjectFormula_Logo.jpg" alt="Logo"></a>
+    
+            <div class="MobileNavigation" id="MobileNavigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <ul class="navbar" id="navbar">
+                <button class="close-button" id="closeButton">&times;</button>
+                <li><a href="MainPage.html">Home</a></li>
+                <li>
+                    <a href="NewsPage.html">News</a>
+                </li>
+                <li>
+                    <a href="F1champ.html">F1 Championship</a>
+                    <ul class="dropdown">
+                        <li><a href="CountdownPage.html">Countdown</a></li>
+                        <li><a href="DriverStandings.html">Driver Standings</a></li>
+                        <li><a href="ConstructorStandings.html">Constructor Standings</a></li>
+                        <li><a href="Calendar2025.html">Calendar 2025</a></li>
+                    </ul>
+                </li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li class="log"><a href="Login.html" class="login-button"> Log In </a></li>
+            </ul>
+        </nav>
+        <script src="js/nav.js"></script>
+    </header>
+    
+    <main>
+    <div class="standings-container">
+        <h1>F1 Driver Standings</h1>
+        <table id="standings">
+                <tr>
+                    <th>Position</th>
+                    <th>Driver</th>
+                    <th>Points</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Max Verstappen</td>
+                    <td>437</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lando Norris</td>
+                    <td>374</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Charles Leclerc</td>
+                    <td>356</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Oscar Piastri</td>
+                    <td>292</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Carlos Sainz</td>
+                    <td>290</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>George Russell</td>
+                    <td>245</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Lewis Hamilton</td>
+                    <td>223</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Sergio Perez</td>
+                    <td>152</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Fernando Alonso</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Pierre Gasly</td>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Nico Hulkenberg</td>
+                    <td>245</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Yuki Tsunoda</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Lance Stroll</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Esteban Ocon</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Kevin Magnussen</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Alexander Albon</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Daniel Ricciardo</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Oliver Bearman</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Franco Colapinto</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Zhou Guanyu</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Liam Lawson</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Valterri Bottas</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Logan Sargeant</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>Jack Doohan</td>
+                    <td>0</td>
+                </tr>
+        </table>
+    </div>
+</main>
+
+<footer>
+    <a href="MainPage.html"><img src="images/ProjectFormula_LogoWhite.jpg" alt="ProjectFormula" height="100"></a>
+    <a href="ContactUs.html" class="contact-button"> Contact Us </a>
+    <section class="socials">
+        <a href="https://www.instagram.com/F1mem4e/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61563896540208" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.tiktok.com/@f1bober735" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    </section>
+    <div id="Copyright">
+        <p>&copy; ProjectFormula 2025-2026, all rights reserved. </p>
+    </div>
+</footer>
+
+</body>
+</html>

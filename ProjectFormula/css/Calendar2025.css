@@ -1,0 +1,51 @@
+body {
+    background-color: #1e1e1e !important;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.content-container {
+    padding-top: 120px;
+    margin: auto;
+    width: 90%;
+}
+
+.schedule-table table {
+    width: 100%;
+    background-color: #2b2b2b;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 2px solid #444;
+    padding: 15px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #d50000;
+    color: white;
+    font-size: 14px;
+}
+
+.schedule-table td {
+    font-size: 14px;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #242424;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .schedule-table td, .schedule-table th {
+        padding: 5px;
+    }
+}

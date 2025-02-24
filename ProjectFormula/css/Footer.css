@@ -1,0 +1,73 @@
+footer {
+    background-color: #290000;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a img {
+    max-width: 33%;
+    height: auto;
+}
+
+.contact-button {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+footer .socials a {
+    color: white;
+    font-size: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .socials a:hover {
+    color: red;
+}
+
+#Copyright {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    footer a img {
+        max-width: 22%;
+        margin-bottom: 0.3rem;
+    }
+
+    .contact-button {
+        font-size: 1rem;
+        align-self: center;
+    }
+
+    #Copyright {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    footer .socials a {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,179 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", "Consolas", "sans-serif";
+}
+
+main {
+    background-color: #ff5555;
+    padding-bottom: 5%;
+}
+
+#intro {
+    height: 100vh; /* Viewport Height - Responsive */
+    background-image: url(Fornulaproject.jpg);
+    background-blend-mode: overlay; /* Filter Img */
+    background-color: rgba(46, 0, 0, 0.332);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 6vw;
+    margin: 0;
+}
+
+.content p {
+    font-size: 1.5vw;
+}
+
+#FirstNews {
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+    padding: 50px;
+}
+
+#NewsItem {
+    background: linear-gradient(360deg, hsla(0, 0%, 100%, 1) 9%, hsla(0, 0%, 100%, 1) 25%, hsla(0, 100%, 56%, 1) 56%);
+    border: 2px solid white;
+    flex: 30%; /* Better visualization of the elements*/
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+}
+
+#NewsItem a, #NewsItem p {
+    text-align: center;
+}
+
+#NewsItem img {
+    width: 100%; /* Fix Pics */
+    transition: transform 0.3s ease; /* Animation Transation */
+    border-radius: 10px;
+}
+
+.NewsLink:hover{
+    text-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+
+#NewsItem:hover {
+    transform: scale(1.05);
+
+}
+
+#NewsItem:hover img {
+    transform: scale(1.1);
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about > #creator {
+    background-color: rgba(255, 255, 255, 0.464);
+    padding: 2%; /* Better visualization of the element */
+    border-radius: 20px;
+    max-width: 30%; /* Spacing between the blocks */
+    text-align: center;
+}
+
+#about > #creator img {
+    width: 100%; /* Good Looking pic */
+    max-width: 300px; /* Good Looking pic */
+    border-radius: 50%;
+}
+
+.CreatorSoc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreatorSoc i {
+    font-size: 40px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.CreatorSoc i:hover {
+    color: #ff5555;
+}
+
+@media (max-width: 1024px) {
+    #intro{
+        background-image: url(FornulaprojectRes.jpg);
+        background-blend-mode: overlay;
+        background-color: rgba(46, 0, 0, 0.332);
+        background-size: cover;
+    }
+
+    #NewsItem{
+        max-width: 55%; /* The elements gradually look good */
+    }
+}
+
+@media (max-width: 768px) {
+    #FirstNews {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about > #creator {
+        max-width: 80%;
+        margin: 2%;
+    }
+
+    #intro{
+        background-image: url(FornulaprojectRes2.jpg);
+        background-blend-mode: overlay;
+        background-color: rgba(46, 0, 0, 0.332);
+        background-size: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    .content p {
+        font-size: 3.5vw;
+    }
+
+    .CreatorSoc i {
+        font-size: 2rem;
+    }
+
+    #intro{
+        background-image: url(FornulaprojectRes3.jpg);
+        background-blend-mode: overlay;
+        background-color: rgba(46, 0, 0, 0.332);
+        background-size: cover;
+    }
+}
+

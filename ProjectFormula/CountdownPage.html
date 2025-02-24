@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/Countdown.css">
+    <link rel="stylesheet" href="css/Nav.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <meta charset="UTF-8">
+    <meta name="name" content="Project Formula">
+    <meta name="author" content="Raul, Vladislav">
+    <meta name="keywords" content="Project Formula, News, Updates, Latest News">
+    <meta name="description" content="Stay updated with the latest news and updates from ProjectFormula. Get insights, updates, and more on the latest developments in our project.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5efa640d8.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/firebase-login.js"></script>
+    <title> Countdown | ProjectFormula</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="MainPage.html" style="padding: 0px;"><img src="images/ProjectFormula_Logo.jpg" alt="Logo"></a>
+    
+            <div class="MobileNavigation" id="MobileNavigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <ul class="navbar" id="navbar">
+                <button class="close-button" id="closeButton">&times;</button>
+                <li><a href="MainPage.html">Home</a></li>
+                <li>
+                    <a href="NewsPage.html">News</a>
+                </li>
+                <li>
+                    <a href="F1champ.html">F1 Championship</a>
+                    <ul class="dropdown">
+                        <li><a href="CountdownPage.html">Countdown</a></li>
+                        <li><a href="DriverStandings.html">Driver Standings</a></li>
+                        <li><a href="ConstructorStandings.html">Constructor Standings</a></li>
+                        <li><a href="Calendar2025.html">Calendar 2025</a></li>
+                    </ul>
+                </li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li class="log"><a href="Login.html" class="login-button"> Log In </a></li>
+            </ul>
+        </nav>
+        <script src="js/nav.js"></script>
+    </header>
+    
+    <main>
+        <div class="countdown-container">
+            <h1>F1 Countdown till the 2025 Australian Grand Prix</h1>
+            <div id="countdown">
+                <div><span id="days"></span>Days</div>
+                <div><span id="hours"></span>Hours</div>
+                <div><span id="minutes"></span>Minutes</div>
+                <div><span id="seconds"></span>Seconds</div>
+            </div>
+        </div>
+        <script src="js/countdown.js"></script>
+        <br>
+        <br>
+    </main>
+
+<footer>
+    <a href="MainPage.html"><img src="images/ProjectFormula_LogoWhite.jpg" alt="ProjectFormula" height="100"></a>
+    <a href="ContactUs.html" class="contact-button"> Contact Us </a>
+    <section class="socials">
+        <a href="https://www.instagram.com/F1mem4e/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61563896540208" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.tiktok.com/@f1bober735" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    </section>
+    <div id="Copyright">
+        <p>&copy; ProjectFormula 2025-2026, all rights reserved. </p>
+    </div>
+</footer>
+</body>
+</html>
+
+
+

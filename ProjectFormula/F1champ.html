@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/Nav.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/countdown.css">
+    <link rel="stylesheet" href="css/DriverStandings.css">
+    <link rel="stylesheet" href="css/ConstructorStandings.css">
+    <link rel="stylesheet" href="css/Calendar2025.css">
+    <meta charset="UTF-8">
+    <meta name="name" content="Project Formula">
+    <meta name="author" content="Raul, Vladislav">
+    <meta name="keywords" content="Project Formula, News, Updates, Latest News">
+    <meta name="description" content="Stay updated with the latest news and updates from ProjectFormula. Get insights, updates, and more on the latest developments in our project.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5efa640d8.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/firebase-login.js"></script>
+    <title> F1 Championship | ProjectFormula </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="MainPage.html" style="padding: 0px;"><img src="images/ProjectFormula_Logo.jpg" alt="Logo"></a>
+    
+            <div class="MobileNavigation" id="MobileNavigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <ul class="navbar" id="navbar">
+                <button class="close-button" id="closeButton">&times;</button>
+                <li><a href="MainPage.html">Home</a></li>
+                <li>
+                    <a href="NewsPage.html">News</a>
+                </li>
+                <li>
+                    <a href="F1champ.html">F1 Championship</a>
+                    <ul class="dropdown">
+                        <li><a href="CountdownPage.html">Countdown</a></li>
+                        <li><a href="DriverStandings.html">Driver Standings</a></li>
+                        <li><a href="ConstructorStandings.html">Constructor Standings</a></li>
+                        <li><a href="Calendar2025.html">Calendar 2025</a></li>
+                    </ul>
+                </li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li class="log"><a href="Login.html" class="login-button"> Log In </a></li>
+            </ul>
+        </nav>
+        <script src="js/nav.js"></script>
+    </header>
+
+<main>
+    <div class="countdown-container">
+        <h1>F1 Countdown till the 2025 Australian Grand Prix</h1>
+        <div id="countdown">
+            <div><span id="days"></span>Days</div>
+            <div><span id="hours"></span>Hours</div>
+            <div><span id="minutes"></span>Minutes</div>
+            <div><span id="seconds"></span>Seconds</div>
+        </div>
+    </div>
+    <script src="js/countdown.js"></script>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <div class="standings-container">
+        <h1>F1 Driver Standings</h1>
+        <table id="standings">
+                <tr>
+                    <th>Position</th>
+                    <th>Driver</th>
+                    <th>Points</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Max Verstappen</td>
+                    <td>437</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lando Norris</td>
+                    <td>374</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Charles Leclerc</td>
+                    <td>356</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Oscar Piastri</td>
+                    <td>292</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Carlos Sainz</td>
+                    <td>290</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>George Russell</td>
+                    <td>245</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Lewis Hamilton</td>
+                    <td>223</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Sergio Perez</td>
+                    <td>152</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Fernando Alonso</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Pierre Gasly</td>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Nico Hulkenberg</td>
+                    <td>245</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Yuki Tsunoda</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Lance Stroll</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Esteban Ocon</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Kevin Magnussen</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Alexander Albon</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Daniel Ricciardo</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Oliver Bearman</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Franco Colapinto</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Zhou Guanyu</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Liam Lawson</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Valterri Bottas</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Logan Sargeant</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>Jack Doohan</td>
+                    <td>0</td>
+                </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <div class="standings-container">
+        <h1>F1 Constructor Standings</h1>
+        <table id="standings">
+                <tr>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>Points</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Mclaren Mercedes</td>
+                    <td>666</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ferrari</td>
+                    <td>652</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Red Bull Racing Honda RBPT</td>
+                    <td>589</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mercedes</td>
+                    <td>468</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Aston Martin Aramco Mercedes</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Alpine Renault</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>HAAS Ferrari</td>
+                    <td>58</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>RB Honda RBPT</td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Williams Mercedes</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Kick Sauber Ferrari</td>
+                    <td>4</td>
+                </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <div class="schedule-table">
+        <h1>Season Calendar 2025</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>Round</th>
+                <th>Race</th>
+                <th>Track</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Australian Grand Prix</td>
+                <td>Albert Park Grand Prix Circuit</td>
+                <td>14-16 March</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Heineken Chinese Grand Prix</td>
+                <td>Shanghai International Circuit</td>
+                <td>21-23 March</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lenovo Japanese Grand Prix</td>
+                <td>Suzuka Circuit</td>
+                <td>4-6 April</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahrain Grand Prix</td>
+                <td>Bahrain International Circuit</td>
+                <td>11-13 April</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>STC Saudi Arabian Grand Prix</td>
+                <td>Jeddah Corniche Circuit</td>
+                <td>18-20 April</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Crypto.com Miami Grand Prix</td>
+                <td>Miami International Autodrome</td>
+                <td>2-4 May</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>AWS Gran Premio del Made in Italy e dell'Emilia-Romagna</td>
+                <td>Autodromo Internazionale Enzo e Dino Ferrari</td>
+                <td>16-18 May</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Grand Prix de Monaco</td>
+                <td>Circuit de Monaco</td>
+                <td>23-25 May</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Aramco Gran Premio de España</td>
+                <td>Circuit de Barcelona-Catalunya</td>
+                <td>30 May - 1 June</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Pirelli Grand Prix du Canada</td>
+                <td>Circuit Gilles-Villeneuve</td>
+                <td>13-15 June</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>MSC Cruises Austrian Grand Prix</td>
+                <td>Red Bull Ring</td>
+                <td>27-29 June</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Qatar Airways British Grand Prix</td>
+                <td>Silverstone Circuit</td>
+                <td>4-6 July</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Belgian Grand Prix</td>
+                <td>Circuit de Spa-Francorchamps</td>
+                <td>25-27 July</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Lenovo Hungarian Grand Prix</td>
+                <td>Hungaroring</td>
+                <td>1-3 August</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Heineken Dutch Grand Prix</td>
+                <td>Circuit Zandvoort</td>
+                <td>29-31 August</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Pirelli Gran Premio d’Italia</td>
+                <td>Autodromo Nazionale Monza</td>
+                <td>5-7 September</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Qatar Airways Azerbaijan Grand Prix</td>
+                <td>Baku City Circuit</td>
+                <td>19-21 September</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Singapore Grand Prix</td>
+                <td>Marina Bay Street Circuit</td>
+                <td>3-5 October</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>MSC Cruises United States Grand Prix</td>
+                <td>Circuit of The Americas</td>
+                <td>17-19 October</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Gran Premio de la Ciudad de México</td>
+                <td>Autódromo Hermanos Rodríguez</td>
+                <td>24-26 October</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>MSC Cruises Grande Prêmio de São Paulo</td>
+                <td>Autódromo José Carlos Pace</td>
+                <td>7-9 November</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Heineken Silver Las Vegas Grand Prix</td>
+                <td>Las Vegas Strip Circuit</td>
+                <td>20-22 November</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Qatar Airways Qatar Grand Prix</td>
+                <td>Lusail International Circuit</td>
+                <td>28-30 November</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Etihad Airways Abu Dhabi Grand Prix</td>
+                <td>Yas Marina Circuit</td>
+                <td>5-7 December</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</main>
+
+<footer>
+        <a href="MainPage.html"><img src="images/ProjectFormula_LogoWhite.jpg" alt="ProjectFormula" height="100"></a>
+    <a href="ContactUs.html" class="contact-button"> Contact Us </a>
+    <section class="socials">
+            <a href="https://www.instagram.com/F1mem4e/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61563896540208" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/@f1bober735" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </section>
+        <div id="Copyright">
+            <p>&copy; ProjectFormula 2025-2026, all rights reserved. </p>
+        </div>
+    </footer>
+</body>
+</html>

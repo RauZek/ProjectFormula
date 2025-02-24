@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/NewsPage.css">
+    <link rel="stylesheet" href="css/Nav.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <script src="https://kit.fontawesome.com/c5efa640d8.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="name" content="Project Formula">
+    <meta name="author" content="Raul, Vladislav">
+    <meta name="keywords" content="Project Formula, News, Updates, Latest News">
+    <meta name="description" content="Stay updated with the latest news and updates from ProjectFormula. Get insights, updates, and more on the latest developments in our project.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="js/firebase-login.js"></script>
+    <title> News | ProjectFormula </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="MainPage.html" style="padding: 0px;"><img src="images/ProjectFormula_Logo.jpg" alt="Logo"></a>
+    
+            <div class="MobileNavigation" id="MobileNavigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <ul class="navbar" id="navbar">
+                <button class="close-button" id="closeButton">&times;</button>
+                <li><a href="MainPage.html">Home</a></li>
+                <li>
+                    <a href="NewsPage.html">News</a>
+                </li>
+                <li>
+                    <a href="F1champ.html">F1 Championship</a>
+                    <ul class="dropdown">
+                        <li><a href="CountdownPage.html">Countdown</a></li>
+                        <li><a href="DriverStandings.html">Driver Standings</a></li>
+                        <li><a href="ConstructorStandings.html">Constructor Standings</a></li>
+                        <li><a href="Calendar2025.html">Calendar 2025</a></li>
+                    </ul>
+                </li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li class="log"><a href="Login.html" class="login-button"> Log In </a></li>
+            </ul>
+        </nav>
+        <script src="js/nav.js"></script>
+    </header>
+<main>
+    <h1 id="LatestNews">Top News</h1>
+    <section class="header-container" id="FirstNews">
+        <div class="NewsItem">
+            <img src="images/LewFer.avif" alt="Hamilton to Ferrari">
+            <a href="News2.html" class="NewsLink" style="padding: 0px;"><h5><u>Lewis Hamilton and Ferrari in 2025!</u></h5></a>
+            <p>It's a Fact! Hamilton signs with Ferrari for 2025!</p>
+        </div>
+        <div class="NewsItem">
+            <img src="images/MclarenF1.avif" id="Mclaren24" alt="Mclaren Champions">
+            <a href="News1.html " class="NewsLink" style="padding: 0px;"><h5><u>Mclaren! THE 2024 WORLD CHAMPIONS!</u></h5></a>
+            <p>Norris and Piastri on the constructor championship win</p>
+        </div>
+        <div class="NewsItem">
+            <img src="images/f1rookies.png" alt="F1 Rookies">
+            <a href="News4.html " class="NewsLink" style="padding: 0px;"><h5><u>The new faces of F1!</u></h5></a>
+            <p>Look through the eyes of the rookies for 2025!</p>
+        </div>
+    </section>
+
+    <article class="content-container" id="SecondNews">
+        <h1 id="MoreNews">More News</h1>
+        <div class="NewsContainer">
+            <div class="NewsItem">
+                <img src="images/Cowell_Krack-news.jpg" alt="Cowell and Krack Roles">
+                <a href="News3.html " class="NewsLink" style="padding: 0px;"><h5><u>Cowell and Krack – changing roles!</u></h5></a>
+                <p>Andy Cowell has been appointed Aston Martin team principal!</p>
+            </div>
+            <div class="NewsItem">
+                <img src="images/Alpine-news.jpg" alt="Alpine Colapinto">
+                <a href="News7.html " class="NewsLink" style="padding: 0px;"><h5><u>Alpine confirm Colapinto as 2025 reserve driver!</u></h5></a>
+                <p>Franco Colapinto will join Alpine as one of their reserve drivers in 2025!</p>
+            </div>
+            <div class="NewsItem">
+                <img src="images/Sainz_news.jpg" alt="Sainz Williams" style="height: 160px;">
+                <a href="News5.html " class="NewsLink" style="padding: 0px;"><h5><u>Sainz signs for Williams! His F1 future is confirmed!</u></h5></a>
+                <p>Carlos Sainz has committed his future to Williams with the Spaniard agreeing a multi-year deal to race alongside Alex Albon.</p>
+            </div>
+            <div class="NewsItem">
+                <img src="images/CharlesLeclerc_news.webp" alt="Leclerc Approach Change" style="height: 160px;">
+                <a href="News6.html" class="NewsLink" style="padding: 0px;"><h5><u>A New Approach for Charles Leclerc in 2025</u></h5></a>
+                <p>Ferrari’s team principal thinks that Charles Leclerc is ready to adapt strategically</p>
+            </div>
+        </div>
+    </article>
+
+</main>
+
+<footer class="footer-container">
+    <a href="MainPage.html"><img src="images/ProjectFormula_LogoWhite.jpg" alt="ProjectFormula" height="100"></a>
+    <a href="ContactUs.html" class="contact-button"> Contact Us </a>
+    <section class="socials">
+        <a href="https://www.instagram.com/F1mem4e/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61563896540208" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.tiktok.com/@f1bober735" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    </section>
+    <div id="Copyright">
+        <p>&copy; ProjectFormula 2025-2026, all rights reserved. </p>
+    </div>
+</footer>
+</body>
+</html>
